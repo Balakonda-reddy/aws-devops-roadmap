@@ -2,6 +2,6 @@
 For aws devops
 
 
-https://meet.google.com/rxp-kqwq-kew
 
+https://meet.google.com/yei-ucbr-udc
 meeting link to join sync up call
