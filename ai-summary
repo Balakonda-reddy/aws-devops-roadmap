@@ -1,0 +1,19 @@
+## Dear AI, Please Stop Forgetting Me! — reading guide
+
+### Gist
+
+This tech talk explains why AI assistants forget information between conversations and how **agent memory** helps them remember useful details, continue unfinished work, and provide more relevant responses across sessions.
+
+### Key takeaways
+
+- **Why AI forgets:** The application manages persistent memory outside the language model and supplies relevant information when generating a response. The model’s context window only holds what it can use right now.
+
+- **What an agent can remember:** The talk introduces four memory types: **working memory** for the current task, **semantic memory** for facts and preferences, **episodic memory** for previous events, and **procedural memory** for instructions and workflows.
+
+- **How useful memory works:** A memory system captures information, evaluates what is useful and safe to keep, stores it, retrieves relevant details, and updates or deletes them when needed. Replaying the entire chat history can increase cost and introduce irrelevant or conflicting information.
+
+- **What the practical example covers:** A SageMaker deployment troubleshooting scenario shows how the four memory types work together. The demo architecture connects a Python/Streamlit application with a custom agent, a memory layer, SQLite, ChromaDB, and enterprise-approved models.
+
+### Core message
+
+**The goal is to remember the right information, for the right user, at the right time**, so the assistant can pick up where the conversation left off.
